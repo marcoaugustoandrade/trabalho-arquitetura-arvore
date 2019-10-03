@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pessoa uuid="1802598046">
+<nome>Maria</nome>
+<parceiros>
+<pessoa uuid="659748578">
+<nome>Joao</nome>
+<filhos>
+<pessoa uuid="483422889">
+<nome>Joana</nome>
+</pessoa>
+<pessoa uuid="2088051243">
+<nome>Mariana</nome>
+<parceiros>
+<pessoa uuid="1277181601">
+<nome>Otavio</nome>
+</pessoa>
+</parceiros>
+</pessoa>
+</filhos>
+</pessoa>
+<pessoa uuid="41903949">
+<nome>Jose</nome>
+<filhos>
+<pessoa uuid="488970385">
+<nome>Mario</nome>
+<parceiros>
+<pessoa uuid="1209271652">
+<nome>Ana</nome>
+<filhos>
+<pessoa uuid="93122545">
+<nome>Tatiana</nome>
+</pessoa>
+</filhos>
+</pessoa>
+</parceiros>
+</pessoa>
+</filhos>
+</pessoa>
+</parceiros>
+</pessoa>
