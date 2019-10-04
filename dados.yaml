@@ -1,0 +1,24 @@
+nome: Maria
+uuid: 1802598046
+conjuges:
+  - nome: Joao
+    uuid: 659748578
+    filhos:
+    - nome: Joana
+      uuid: 483422889
+    - nome: Mariana
+      uuid: 2088051243
+      conjuges:
+      - nome: Otavio
+        uuid: 1277181601
+  - nome: Jose
+    uuid: 41903949
+    filhos:
+    - nome: Mario
+      uuid: 488970385
+      conjuges:
+      - nome: Ana
+        uuid: 1209271652
+        filhos:
+        - nome: Tatiana
+          uuid: 93122545

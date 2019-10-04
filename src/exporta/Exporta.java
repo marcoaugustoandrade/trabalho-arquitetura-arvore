@@ -36,7 +36,7 @@ public class Exporta implements IExporta{
 
         } else if (tipo.equals("YAML")){
             exportaParaYAML = new ExportaParaYAML(pessoa);
-            data = exportaParaYAML.export();
+            data = exportaParaYAML.export(0);
             fileName += ".yaml";
         }
         writeFile(fileName, data);

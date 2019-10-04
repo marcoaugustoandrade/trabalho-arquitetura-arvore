@@ -54,5 +54,6 @@ public class Main {
         Exporta exporta = new Exporta();
         exporta.to("XML", "dados", maria);
         exporta.to("JSON", "dados", maria);
+        exporta.to("YAML", "dados", maria);
     }
 }
