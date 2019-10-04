@@ -14,9 +14,9 @@ public class ExportaParaYAML {
     public String export(int nivel) {
 
         String espacos = "";
-        String p = "";
-
         for (int i = 1; i <= nivel; i++) espacos += "  ";
+
+        String p = "";
 
         if (nivel == 0) {
             p += "nome: " + pessoa.getNome();
@@ -28,24 +28,24 @@ public class ExportaParaYAML {
 
         if (pessoa instanceof PessoaComposite){
 
-            int nivelc = nivel;
+            int nivelf = nivel;
             if (!((PessoaComposite) pessoa).getParceiros().isEmpty()){
                 if (nivel == 0) p += "\nconjuges:";
                 else p += "\n" + espacos + "  conjuges:";
-                nivelc++;
+                nivelf++;
                 for (IPessoa c: ((PessoaComposite) pessoa).getParceiros()){
                     ExportaParaYAML exportaParaYAML = new ExportaParaYAML(c);
-                    p += exportaParaYAML.export(nivelc);
+                    p += exportaParaYAML.export(nivelf);
                 }
             }
 
-            int nivelf = nivel;
+            int nivelp = nivel;
             if (!((PessoaComposite) pessoa).getFilhos().isEmpty()){
                 p += "\n" + espacos + "  filhos:";
-                nivelf++;
+                nivelp++;
                 for (IPessoa f: ((PessoaComposite) pessoa).getFilhos()){
                     ExportaParaYAML exportaParaYAML = new ExportaParaYAML(f);
-                    p += exportaParaYAML.export(nivelf);
+                    p += exportaParaYAML.export(nivelp);
                 }
             }
         }

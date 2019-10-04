@@ -31,7 +31,7 @@ public class Exporta implements IExporta{
 
         } else if (tipo.equals("XML")){
             exportaParaXML = new ExportaParaXML(pessoa);
-            data = exportaParaXML.export(true, 0);
+            data = exportaParaXML.export(0);
             fileName += ".xml";
 
         } else if (tipo.equals("YAML")){
