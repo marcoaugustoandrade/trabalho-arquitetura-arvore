@@ -52,8 +52,9 @@ public class Main {
 
         // Exportando dados
         Exporta exporta = new Exporta();
-        exporta.to("XML", "dados", maria);
-        exporta.to("JSON", "dados", maria);
-        exporta.to("YAML", "dados", maria);
+        exporta.para("XML", "dados", maria);
+        exporta.para("JSON", "dados", maria);
+        exporta.para("YAML", "dados", maria);
+        exporta.para("TOML", "dados", maria);
     }
 }

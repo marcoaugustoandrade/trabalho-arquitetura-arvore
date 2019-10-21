@@ -28,8 +28,18 @@ public class PessoaLeaf implements IPessoa {
     }
 
     @Override
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
     public String getNome() {
         return nome;
+    }
+
+    @Override
+    public void setSexo(Character sexo) {
+        this.sexo = sexo;
     }
 
     @Override

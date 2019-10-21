@@ -17,18 +17,27 @@ public class ExportaParaJSON {
         String espacos = "";
         for (int i = 1; i <= nivel; i++) espacos += "  ";
 
-        // TODO: falta adicionar a chave "pessoa": {
         String p = "{";
         if (nivel == 0) p += "\n \"uuid\": \"" + pessoa.getUUID() + "\",";
         else p += "\n" + espacos + " \"uuid\": \"" + pessoa.getUUID() + "\",";
 
         if (pessoa instanceof PessoaLeaf){
-            if (nivel == 0) p += "\n \"nome\": \"" + pessoa.getNome() + "\"";
-            else p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\"";
+            if (nivel == 0) {
+                p += "\n \"nome\": \"" + pessoa.getNome() + "\"";
+                p += "\n \"sexo\": \"" + pessoa.getSexo() + "\"";
+            } else {
+                p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\"";
+                p += "\n " + espacos + "\"sexo\": \"" + pessoa.getSexo() + "\"";
+            }
         } else if (!((PessoaComposite) pessoa).getParceiros().isEmpty() || !((PessoaComposite) pessoa).getFilhos().isEmpty()){
 
-            if (nivel == 0) p += "\n \"nome\": \"" + pessoa.getNome() + "\",";
-            else p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\",";
+            if (nivel == 0) {
+                p += "\n \"nome\": \"" + pessoa.getNome() + "\",";
+                p += "\n \"sexo\": \"" + pessoa.getSexo() + "\",";
+            } else {
+                p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\",";
+                p += "\n " + espacos + "\"sexo\": \"" + pessoa.getSexo() + "\",";
+            }
 
             int nivelf = nivel;
             if (!((PessoaComposite) pessoa).getFilhos().isEmpty()){

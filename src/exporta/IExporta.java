@@ -4,5 +4,6 @@ import arvore.IPessoa;
 
 public interface IExporta {
 
-    void to(String tipo, String fileName, IPessoa pessoa);
+    void para(String tipo, String fileName, IPessoa pessoa);
+    void gravarArquivo(String nomeArquivo, String dados);
 }

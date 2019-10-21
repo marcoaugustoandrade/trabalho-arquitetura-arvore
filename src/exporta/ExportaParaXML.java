@@ -17,14 +17,20 @@ public class ExportaParaXML {
         for (int i = 1; i <= nivel; i++) espacos += "    ";
 
         String p = "";
-        if (nivel == 0){
+        if (nivel == 0) {
             p += "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>";
-            p += "\n<pessoa uuid=\"" + pessoa.getUUID() + "\">";
-            p += "\n<nome>" + pessoa.getNome() + "</nome>";
-        } else {
-            p += "\n" + espacos + "<pessoa uuid=\"" + pessoa.getUUID() + "\">";
-            p += "\n" + espacos + "<nome>" + pessoa.getNome() + "</nome>";
         }
+        p += "\n" + espacos + "<pessoa uuid=\"" + pessoa.getUUID() + "\">";
+        p += "\n" + espacos + "<nome>" + pessoa.getNome() + "</nome>";
+        p += "\n" + espacos + "<sexo>" + pessoa.getSexo() + "</sexo>";
+        if (pessoa.getLocalNascimento() != null)
+            p += "\n" + espacos + "<local-nascimento>" + pessoa.getLocalNascimento() + "</local-nascimento>";
+        if (pessoa.getDataNascimento() != null)
+            p += "\n" + espacos + "<data-nascimento>" + pessoa.getDataNascimento().toString() + "</data-nascimento>";
+        if (pessoa.getLocalFalecimento() != null)
+            p += "\n" + espacos + "<local-falecimento>" + pessoa.getLocalFalecimento() + "</local-falecimento>";
+        if (pessoa.getDataFalecimento() != null)
+            p += "\n" + espacos + "<data-falecimento>" + pessoa.getDataFalecimento().toString() + "</data-nascimento>";
 
         if (pessoa instanceof PessoaComposite){
 

@@ -21,9 +21,27 @@ public class ExportaParaYAML {
         if (nivel == 0) {
             p += "nome: " + pessoa.getNome();
             p += "\nuuid: " + pessoa.getUUID();
+            p += "\nsexo: " + pessoa.getSexo();
+            if (pessoa.getLocalNascimento() != null)
+                p += "\nLocal nascimento: " + pessoa.getLocalNascimento();
+            if (pessoa.getDataNascimento() != null)
+                p += "\nData nascimento: " + pessoa.getDataNascimento();
+            if (pessoa.getLocalFalecimento() != null)
+                p += "\nLocal falecimento: " + pessoa.getLocalNascimento();
+            if (pessoa.getDataFalecimento() != null)
+                p += "\nData falecimento: " + pessoa.getDataFalecimento();
         } else {
             p += "\n" + espacos + "- nome: " + pessoa.getNome();
             p += "\n" + espacos + "  uuid: " + pessoa.getUUID();
+            p += "\n" + espacos + "  sexo: " + pessoa.getSexo();
+            if (pessoa.getLocalNascimento() != null)
+                p += "\n" + espacos + "  Local nascimento: " + pessoa.getLocalNascimento();
+            if (pessoa.getDataNascimento() != null)
+                p += "\n" + espacos + "  Data nascimento: " + pessoa.getDataNascimento();
+            if (pessoa.getLocalFalecimento() != null)
+                p += "\n" + espacos + "  Local falecimento: " + pessoa.getLocalNascimento();
+            if (pessoa.getDataFalecimento() != null)
+                p += "\n" + espacos + "  Data falecimento: " + pessoa.getDataFalecimento();
         }
 
         if (pessoa instanceof PessoaComposite){

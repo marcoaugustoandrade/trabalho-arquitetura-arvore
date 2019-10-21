@@ -1,13 +1,15 @@
 package arvore;
 
 import java.time.LocalDate;
-import java.util.Collection;
-import java.util.List;
 
 public interface IPessoa {
 
     int getUUID();
+
+    void setNome(String nome);
     String getNome();
+
+    void setSexo(Character sexo);
     Character getSexo();
 
     void setLocalNascimento(String localNascimento);

@@ -1,30 +1,39 @@
 {
- "uuid": "1802598046",
+ "uuid": "468121027",
  "nome": "Maria",
+ "sexo": "F",
 "parceiros": [{
-   "uuid": "659748578",
+   "uuid": "1804094807",
    "nome": "Joao",
+   "sexo": "M",
   "filhos": [{
- "uuid": "483422889",
- "nome": "Joana"},{
- "uuid": "2088051243",
+ "uuid": "2001049719",
+ "nome": "Joana"
+ "sexo": "F"},{
+ "uuid": "1528902577",
  "nome": "Mariana",
+ "sexo": "F",
 "parceiros": [{
-   "uuid": "1277181601",
-   "nome": "Otavio"  }
+   "uuid": "1927950199",
+   "nome": "Otavio"
+   "sexo": "M"  }
 ]}
   ]  },{
-     "uuid": "41903949",
+     "uuid": "868693306",
      "nome": "Jose",
+     "sexo": "M",
     "filhos": [{
- "uuid": "488970385",
+ "uuid": "1746572565",
  "nome": "Mario",
+ "sexo": "M",
 "parceiros": [{
-   "uuid": "1209271652",
+   "uuid": "989110044",
    "nome": "Ana",
+   "sexo": "F",
   "filhos": [{
- "uuid": "93122545",
- "nome": "Tatiana"}
+ "uuid": "424058530",
+ "nome": "Tatiana"
+ "sexo": "F"}
   ]  }
 ]}
     ]    }

@@ -1,34 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<pessoa uuid="1802598046">
+<pessoa uuid="468121027">
 <nome>Maria</nome>
+<sexo>F</sexo>
+<local-nascimento>Sao Paulo - SP</local-nascimento>
+<data-nascimento>1970-04-10</data-nascimento>
 <parceiros>
-    <pessoa uuid="659748578">
+    <pessoa uuid="1804094807">
     <nome>Joao</nome>
+    <sexo>M</sexo>
+    <local-nascimento>Rio de Janeiro - RJ</local-nascimento>
+    <data-nascimento>1971-08-20</data-nascimento>
     <filhos>
-        <pessoa uuid="483422889">
+        <pessoa uuid="2001049719">
         <nome>Joana</nome>
+        <sexo>F</sexo>
+        <local-nascimento>Belo Horizonte - BH</local-nascimento>
+        <data-nascimento>1992-08-03</data-nascimento>
         </pessoa>
-        <pessoa uuid="2088051243">
+        <pessoa uuid="1528902577">
         <nome>Mariana</nome>
+        <sexo>F</sexo>
+        <local-nascimento>Belo Horizonte - BH</local-nascimento>
+        <data-nascimento>1994-01-08</data-nascimento>
         <parceiros>
-            <pessoa uuid="1277181601">
+            <pessoa uuid="1927950199">
             <nome>Otavio</nome>
+            <sexo>M</sexo>
+            <local-nascimento>Belo Horizonte - BH</local-nascimento>
+            <data-nascimento>1990-08-23</data-nascimento>
             </pessoa>
         </parceiros>
         </pessoa>
     </filhos>
     </pessoa>
-    <pessoa uuid="41903949">
+    <pessoa uuid="868693306">
     <nome>Jose</nome>
+    <sexo>M</sexo>
+    <local-nascimento>Cuiaba - MT</local-nascimento>
+    <data-nascimento>1971-03-02</data-nascimento>
     <filhos>
-        <pessoa uuid="488970385">
+        <pessoa uuid="1746572565">
         <nome>Mario</nome>
+        <sexo>M</sexo>
+        <local-nascimento>Belo Horizonte - BH</local-nascimento>
+        <data-nascimento>1995-02-01</data-nascimento>
         <parceiros>
-            <pessoa uuid="1209271652">
+            <pessoa uuid="989110044">
             <nome>Ana</nome>
+            <sexo>F</sexo>
+            <local-nascimento>Belo Horizonte - BH</local-nascimento>
+            <data-nascimento>1990-01-30</data-nascimento>
             <filhos>
-                <pessoa uuid="93122545">
+                <pessoa uuid="424058530">
                 <nome>Tatiana</nome>
+                <sexo>F</sexo>
+                <local-nascimento>Belo Horizonte - BH</local-nascimento>
+                <data-nascimento>2018-08-23</data-nascimento>
                 </pessoa>
             </filhos>
             </pessoa>

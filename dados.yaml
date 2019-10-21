@@ -1,24 +1,51 @@
 nome: Maria
-uuid: 1802598046
+uuid: 468121027
+sexo: F
+Local nascimento: Sao Paulo - SP
+Data nascimento: 1970-04-10
 conjuges:
   - nome: Joao
-    uuid: 659748578
+    uuid: 1804094807
+    sexo: M
+    Local nascimento: Rio de Janeiro - RJ
+    Data nascimento: 1971-08-20
     filhos:
     - nome: Joana
-      uuid: 483422889
+      uuid: 2001049719
+      sexo: F
+      Local nascimento: Belo Horizonte - BH
+      Data nascimento: 1992-08-03
     - nome: Mariana
-      uuid: 2088051243
+      uuid: 1528902577
+      sexo: F
+      Local nascimento: Belo Horizonte - BH
+      Data nascimento: 1994-01-08
       conjuges:
       - nome: Otavio
-        uuid: 1277181601
+        uuid: 1927950199
+        sexo: M
+        Local nascimento: Belo Horizonte - BH
+        Data nascimento: 1990-08-23
   - nome: Jose
-    uuid: 41903949
+    uuid: 868693306
+    sexo: M
+    Local nascimento: Cuiaba - MT
+    Data nascimento: 1971-03-02
     filhos:
     - nome: Mario
-      uuid: 488970385
+      uuid: 1746572565
+      sexo: M
+      Local nascimento: Belo Horizonte - BH
+      Data nascimento: 1995-02-01
       conjuges:
       - nome: Ana
-        uuid: 1209271652
+        uuid: 989110044
+        sexo: F
+        Local nascimento: Belo Horizonte - BH
+        Data nascimento: 1990-01-30
         filhos:
         - nome: Tatiana
-          uuid: 93122545
+          uuid: 424058530
+          sexo: F
+          Local nascimento: Belo Horizonte - BH
+          Data nascimento: 2018-08-23

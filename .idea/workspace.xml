@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a3c2dc-8319-4bd2-8401-9926d96d083d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrama/Diagrama.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrama/Diagrama.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados.json" beforeDir="false" afterPath="$PROJECT_DIR$/dados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dados.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dados.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/IPessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/IPessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaLeaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/Exporta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/Exporta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaTOML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaTOML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaYAML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaYAML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/IExporta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/IExporta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvore/IPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/IPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvore/PessoaComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/PessoaComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvore/PessoaLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/PessoaLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exporta/Exporta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/Exporta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaTOML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaTOML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaYAML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaYAML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exporta/IExporta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/IExporta.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +42,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RhzIlGr2w8u2XQQgqyW1WhKaz6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/diagrama" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -67,6 +102,20 @@
       <updated>1570134037089</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="518" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1570134394177">

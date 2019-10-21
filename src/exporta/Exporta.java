@@ -15,41 +15,41 @@ public class Exporta implements IExporta{
     private ExportaParaYAML exportaParaYAML;
 
     @Override
-    public void to(String tipo, String fileName, IPessoa pessoa) {
+    public void para(String tipo, String nomeArquivo, IPessoa pessoa) {
 
-        String data = "";
+        String dados = "";
 
         if (tipo.equals("JSON")){
             exportaParaJSON = new ExportaParaJSON(pessoa);
-            data = exportaParaJSON.export(0);
-            fileName += ".json";
+            dados = exportaParaJSON.export(0);
+            nomeArquivo += ".json";
 
         } else if (tipo.equals("TOML")){
             exportaParaTOML = new ExportaParaTOML(pessoa);
-            data = exportaParaTOML.export();
-            fileName += ".toml";
+            dados = exportaParaTOML.export(0);
+            nomeArquivo += ".toml";
 
         } else if (tipo.equals("XML")){
             exportaParaXML = new ExportaParaXML(pessoa);
-            data = exportaParaXML.export(0);
-            fileName += ".xml";
+            dados = exportaParaXML.export(0);
+            nomeArquivo += ".xml";
 
         } else if (tipo.equals("YAML")){
             exportaParaYAML = new ExportaParaYAML(pessoa);
-            data = exportaParaYAML.export(0);
-            fileName += ".yaml";
+            dados = exportaParaYAML.export(0);
+            nomeArquivo += ".yaml";
         }
-        writeFile(fileName, data);
+        gravarArquivo(nomeArquivo, dados);
     }
 
-    public void writeFile(String filename, String data){
+    public void gravarArquivo(String nomeArquivo, String dados){
 
         BufferedWriter writer = null;
         try{
-            File file = new File(filename);
-            writer = new BufferedWriter(new FileWriter(file));
-            writer.write(data);
-            System.out.println("Salvando dados em " + filename);
+            File arquivo = new File(nomeArquivo);
+            writer = new BufferedWriter(new FileWriter(arquivo));
+            writer.write(dados);
+            System.out.println("Salvando dados em " + nomeArquivo);
         } catch (Exception e){
             e.printStackTrace();
         } finally {
