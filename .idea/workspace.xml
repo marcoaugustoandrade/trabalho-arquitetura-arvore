@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a3c2dc-8319-4bd2-8401-9926d96d083d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagrama/Diagrama.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagrama/Diagrama.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dados.json" beforeDir="false" afterPath="$PROJECT_DIR$/dados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dados.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dados.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/IPessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/IPessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaComposite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/arvore/PessoaLeaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/Exporta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/Exporta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaTOML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaTOML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaYAML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/ExportaParaYAML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-family-tree/exporta/IExporta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-family-tree/exporta/IExporta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arvore/IPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/IPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arvore/PessoaComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/PessoaComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arvore/PessoaLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvore/PessoaLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exporta/Exporta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/Exporta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaTOML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaTOML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exporta/ExportaParaYAML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/ExportaParaYAML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exporta/IExporta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exporta/IExporta.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -122,22 +98,22 @@
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="518" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/54.27.1312.741@54.27.1312.741" timestamp="1570134394177" />
-    <state width="1266" height="172" key="GridCell.Tab.0.bottom" timestamp="1570216953241">
+    <state width="1266" height="172" key="GridCell.Tab.0.bottom" timestamp="1571689794790">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state width="1266" height="172" key="GridCell.Tab.0.bottom/54.27.1312.741@54.27.1312.741" timestamp="1570216953241" />
-    <state width="1266" height="172" key="GridCell.Tab.0.center" timestamp="1570216953239">
+    <state width="1266" height="172" key="GridCell.Tab.0.bottom/54.27.1312.741@54.27.1312.741" timestamp="1571689794790" />
+    <state width="1266" height="172" key="GridCell.Tab.0.center" timestamp="1571689794790">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state width="1266" height="172" key="GridCell.Tab.0.center/54.27.1312.741@54.27.1312.741" timestamp="1570216953239" />
-    <state width="1266" height="172" key="GridCell.Tab.0.left" timestamp="1570216953238">
+    <state width="1266" height="172" key="GridCell.Tab.0.center/54.27.1312.741@54.27.1312.741" timestamp="1571689794790" />
+    <state width="1266" height="172" key="GridCell.Tab.0.left" timestamp="1571689794789">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state width="1266" height="172" key="GridCell.Tab.0.left/54.27.1312.741@54.27.1312.741" timestamp="1570216953238" />
-    <state width="1266" height="172" key="GridCell.Tab.0.right" timestamp="1570216953240">
+    <state width="1266" height="172" key="GridCell.Tab.0.left/54.27.1312.741@54.27.1312.741" timestamp="1571689794789" />
+    <state width="1266" height="172" key="GridCell.Tab.0.right" timestamp="1571689794790">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state width="1266" height="172" key="GridCell.Tab.0.right/54.27.1312.741@54.27.1312.741" timestamp="1570216953240" />
+    <state width="1266" height="172" key="GridCell.Tab.0.right/54.27.1312.741@54.27.1312.741" timestamp="1571689794790" />
     <state x="373" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1570134137292">
       <screen x="54" y="27" width="1312" height="741" />
     </state>

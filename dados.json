@@ -2,37 +2,49 @@
  "uuid": "1802598046",
  "nome": "Maria",
  "sexo": "F",
+ "local-nascimento": "Sao Paulo - SP",
+ "data-nascimento": "1970-04-10",
 "parceiros": [{
    "uuid": "659748578",
-   "nome": "Joao",
-   "sexo": "M",
+ "nome": "Joao",
+ "sexo": "M",
+ "local-nascimento": "Rio de Janeiro - RJ",
+ "data-nascimento": "1971-08-20",
   "filhos": [{
  "uuid": "483422889",
- "nome": "Joana"
+ "nome": "Joana",
  "sexo": "F"},{
  "uuid": "2088051243",
  "nome": "Mariana",
  "sexo": "F",
+ "local-nascimento": "Belo Horizonte - BH",
+ "data-nascimento": "1994-01-08",
 "parceiros": [{
    "uuid": "1277181601",
-   "nome": "Otavio"
-   "sexo": "M"  }
+ "nome": "Otavio",
+ "sexo": "M"  }
 ]}
   ]  },{
      "uuid": "41903949",
-     "nome": "Jose",
-     "sexo": "M",
+ "nome": "Jose",
+ "sexo": "M",
+ "local-nascimento": "Cuiaba - MT",
+ "data-nascimento": "1971-03-02",
     "filhos": [{
  "uuid": "488970385",
  "nome": "Mario",
  "sexo": "M",
+ "local-nascimento": "Belo Horizonte - BH",
+ "data-nascimento": "1995-02-01",
 "parceiros": [{
    "uuid": "1209271652",
-   "nome": "Ana",
-   "sexo": "F",
+ "nome": "Ana",
+ "sexo": "F",
+ "local-nascimento": "Belo Horizonte - BH",
+ "data-nascimento": "1990-01-30",
   "filhos": [{
  "uuid": "93122545",
- "nome": "Tatiana"
+ "nome": "Tatiana",
  "sexo": "F"}
   ]  }
 ]}

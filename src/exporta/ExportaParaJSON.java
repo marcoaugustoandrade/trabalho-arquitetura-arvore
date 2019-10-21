@@ -22,22 +22,21 @@ public class ExportaParaJSON {
         else p += "\n" + espacos + " \"uuid\": \"" + pessoa.getUUID() + "\",";
 
         if (pessoa instanceof PessoaLeaf){
-            if (nivel == 0) {
-                p += "\n \"nome\": \"" + pessoa.getNome() + "\"";
+//            if (nivel == 0) {
+                p += "\n \"nome\": \"" + pessoa.getNome() + "\",";
                 p += "\n \"sexo\": \"" + pessoa.getSexo() + "\"";
-            } else {
-                p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\"";
-                p += "\n " + espacos + "\"sexo\": \"" + pessoa.getSexo() + "\"";
-            }
+//            } else {
+//                p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\",";
+//                p += "\n " + espacos + "\"sexo\": \"" + pessoa.getSexo() + "\"";
+//            }
         } else if (!((PessoaComposite) pessoa).getParceiros().isEmpty() || !((PessoaComposite) pessoa).getFilhos().isEmpty()){
 
-            if (nivel == 0) {
-                p += "\n \"nome\": \"" + pessoa.getNome() + "\",";
-                p += "\n \"sexo\": \"" + pessoa.getSexo() + "\",";
-            } else {
-                p += "\n " + espacos + "\"nome\": \"" + pessoa.getNome() + "\",";
-                p += "\n " + espacos + "\"sexo\": \"" + pessoa.getSexo() + "\",";
-            }
+            p += "\n \"nome\": \"" + pessoa.getNome() + "\",";
+            p += "\n \"sexo\": \"" + pessoa.getSexo() + "\",";
+            if (pessoa.getLocalNascimento() != null) p += "\n \"local-nascimento\": \"" + pessoa.getLocalNascimento() + "\",";
+            if (pessoa.getDataNascimento() != null) p += "\n \"data-nascimento\": \"" + pessoa.getDataNascimento() + "\",";
+            if (pessoa.getLocalFalecimento() != null) p += "\n \"local-falecimento\": \"" + pessoa.getLocalFalecimento() + "\",";
+            if (pessoa.getDataFalecimento() != null) p += "\n \"data-falecimento\": \"" + pessoa.getDataFalecimento() + "\",";
 
             int nivelf = nivel;
             if (!((PessoaComposite) pessoa).getFilhos().isEmpty()){
