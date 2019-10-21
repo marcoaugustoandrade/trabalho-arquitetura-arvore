@@ -2,30 +2,30 @@
  "uuid": "1802598046",
  "nome": "Maria",
 "parceiros": [{
- "uuid": "659748578",
- "nome": "Joao",
-"filhos": [{
+   "uuid": "659748578",
+   "nome": "Joao",
+  "filhos": [{
  "uuid": "483422889",
  "nome": "Joana"},{
  "uuid": "2088051243",
  "nome": "Mariana",
 "parceiros": [{
- "uuid": "1277181601",
- "nome": "Otavio"}
+   "uuid": "1277181601",
+   "nome": "Otavio"  }
 ]}
-]},{
- "uuid": "41903949",
- "nome": "Jose",
-"filhos": [{
+  ]  },{
+     "uuid": "41903949",
+     "nome": "Jose",
+    "filhos": [{
  "uuid": "488970385",
  "nome": "Mario",
 "parceiros": [{
- "uuid": "1209271652",
- "nome": "Ana",
-"filhos": [{
+   "uuid": "1209271652",
+   "nome": "Ana",
+  "filhos": [{
  "uuid": "93122545",
  "nome": "Tatiana"}
+  ]  }
 ]}
-]}
-]}
+    ]    }
 ]}
